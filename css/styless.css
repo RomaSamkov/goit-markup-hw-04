@@ -112,6 +112,11 @@ body {
   color: var(--accent-color);
 }
 /*----------------- Contacts------------------ */
+.header-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
 .contact-phone {
   margin-left: 50px;
 }
@@ -128,7 +133,8 @@ body {
   line-height: 1.14;
 }
 .contact {
-  display: block;
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 }
