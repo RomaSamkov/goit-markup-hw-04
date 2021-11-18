@@ -116,9 +116,24 @@ body {
   width: 16px;
   height: 12px;
   margin-right: 10px;
+  fill: var(--primery-text-color);
+}
+.header-mail:hover,
+.header-mail:focus {
+  fill: var(--accent-color);
 }
 .contact-phone {
   margin-left: 50px;
+}
+.header-phone {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: var(--primery-text-color);
+}
+.header-phone:hover,
+.header-phone:focus {
+  fill: var(--accent-color);
 }
 .contact-list {
   display: flex;
@@ -206,6 +221,24 @@ body {
   background-color: #188ce8;
 }
 /* --------------Студия main section----------- */
+.bg-benefits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 100px;
+  padding-left: 100px;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.benefits-icon {
+  width: 70px;
+  height: 70px;
+}
 .benefits {
   padding-bottom: 0;
 }
