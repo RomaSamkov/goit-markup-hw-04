@@ -116,11 +116,7 @@ body {
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  fill: var(--primery-text-color);
-}
-.header-mail:hover,
-.header-mail:focus {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 .contact-phone {
   margin-left: 50px;
@@ -129,11 +125,7 @@ body {
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  fill: var(--primery-text-color);
-}
-.header-phone:hover,
-.header-phone:focus {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 .contact-list {
   display: flex;
@@ -232,7 +224,7 @@ body {
   margin-bottom: 30px;
   width: 270px;
   height: 120px;
-  background: #f5f4fa;
+  background: var(--background-color-battons);
   border-radius: 4px;
 }
 .benefits-icon {
