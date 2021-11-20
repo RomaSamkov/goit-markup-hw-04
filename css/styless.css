@@ -123,8 +123,8 @@ body {
   margin-left: 50px;
 }
 .header-phone {
-  width: 16px;
-  height: 12px;
+  width: 10px;
+  height: 16px;
   margin-right: 10px;
   fill: currentColor;
 }
@@ -348,8 +348,6 @@ body {
 .network-list {
   display: flex;
   justify-content: center;
-  padding-right: 32px;
-  padding-left: 32px;
 }
 .network-item {
   width: 44px;
@@ -483,11 +481,7 @@ body {
 .footer-adress {
   margin-right: 70px;
 }
-.social-container {
-  padding-top: 72px;
-  padding-bottom: 100px;
-  margin-right: auto;
-}
+
 .social-title {
   margin-bottom: 20px;
   font-weight: bold;
